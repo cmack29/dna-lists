@@ -29,7 +29,9 @@ class QueueWithLinkedList {
 
   // isEmpty: check if the queue is empty
 
-  isEmpty() {}
+  isEmpty() {
+    return this.length
+  }
 }
 
 module.exports = QueueWithLinkedList

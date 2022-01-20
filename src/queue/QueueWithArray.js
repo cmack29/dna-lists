@@ -9,25 +9,35 @@ class QueueWithArray {
 
   // view: returns all values of the queue
 
-  view() {}
+  view() {
+    return this.items
+  }
 
   // enqueue: add to the end of the queue
   // TC: O(1)
 
-  enqueue(item) {}
+  enqueue(item) {
+    return this.items.push(item)
+  }
 
   // dequeue: remove from the start of the queue
   // TC: O(n)
 
-  dequeue() {}
+  dequeue() {
+
+  }
 
   // size: check the size of the queue
 
-  size() {}
+  size() {
+    return this.item.length
+  }
 
   // isEmpty: check if the queue is empty
 
-  isEmpty() {}
+  isEmpty() {
+    return this.items.length === 0
+  }
 }
 
 module.exports = QueueWithArray
